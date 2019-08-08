@@ -17,5 +17,4 @@ end
 def pop_with_args (small_dogs)
   dog_breeds = ["Doberman", "Goldie","Chihuahua", "Shiba Inu"]
   small_dogs = dog_breeds.pop(2)
-  dog_breeds
 end
