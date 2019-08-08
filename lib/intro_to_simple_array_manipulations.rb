@@ -9,3 +9,7 @@ updated_array = ["stuff", "more stuff", "queens", "broklyn"]
 new_neighborhood = "Staten Island"
 updated_array.unshift(new_neighborhood)
 end
+
+def using_pop (array)
+  array.pop
+end
