@@ -18,3 +18,7 @@ def pop_with_args (small_dogs)
   dog_breeds = ["Doberman", "Goldie","Chihuahua", "Shiba Inu"]
   small_dogs = dog_breeds.pop(2)
 end
+
+def using_unshift(array)
+  array.shift
+end
