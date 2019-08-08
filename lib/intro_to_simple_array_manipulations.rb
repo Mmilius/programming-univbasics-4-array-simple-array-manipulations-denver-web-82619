@@ -24,5 +24,6 @@ def using_shift(array)
 end
 
 def shift_with_args (array)
+  array = ["something", "stuff"]
   
 end
