@@ -23,7 +23,6 @@ def using_shift(array)
   array.shift
 end
 
-def shift_with_args (array)
-  array = ["something", "stuff"]
-  
+def shift_with_args (ice_cream_brands)
+  brands_removed = ice_cream_brands.shift(2)
 end
