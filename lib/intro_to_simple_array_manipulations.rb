@@ -42,14 +42,13 @@ def using_flatten (instruments)
   flat_array = instruments.flatten
 end
 
-def using_delete (instructors, element)
-  element = "Steven"
+def using_delete (instructors, string)
+  string = "Steven"
   instructors.delete("Steven")
 end
 
 def using_delete_at (array, integer)
-  famous_robots = [""]
+  famous_robots = ["Johhny 5", "R2D2", "Robocop"]
   integer = 2
   deleted_robot = famous_robots.delete_at(2)
-  
 end
