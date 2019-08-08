@@ -13,3 +13,7 @@ end
 def using_pop (array)
   array.pop
 end
+
+def pop_with_args (small_dogs)
+  dog_breeds.pop
+end
