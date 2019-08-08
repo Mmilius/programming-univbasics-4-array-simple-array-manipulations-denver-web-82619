@@ -46,7 +46,9 @@ def using_delete (instructors, element)
   instructors.delete("Steven")
 end
 
-def using_delete_at (array, )
-  deleted_robot = famous_robots.delete(2)
+def using_delete_at (array, integer)
+  famous_robots = [""]
+  integer = 2
+  deleted_robot = famous_robots.delete_at(2)
   
 end
